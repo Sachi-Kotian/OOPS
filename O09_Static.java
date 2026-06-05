@@ -4,10 +4,10 @@ class Mobile{
         System.out.println("Constructor called");
     }
     String brand;
-
     static String os;
 
-
+    //static block-will be called only once when the class is loaded into memory
+    //before constructor and main method
     static{
         int ram=128;
         System.out.println("Static block called. RAM is "+ram+"GB");

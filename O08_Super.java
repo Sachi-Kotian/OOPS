@@ -26,7 +26,7 @@ class Mother extends Parents{
     }
 }
 
-public class O08_SuperStaticFinal {
+public class O08_Super {
     public static void main(String args[])
         {
             Mother m1=new Mother();

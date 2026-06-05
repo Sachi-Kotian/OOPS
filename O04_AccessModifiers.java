@@ -9,10 +9,7 @@ class LogIn{
         System.out.println(this.password);
     }
 
-    class Package extends O05_packages{
-
-
-    }
+    
 
     public void setPassword(String password)
     {
